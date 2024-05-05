@@ -11,7 +11,7 @@ cmd({
             alias :["واتس","مود"],           
             desc: "(menu cmdlist).",
             category: "downloader",
-            react: "♻️",
+            react: "📥",
             filename: __filename,
             use: '<faded-Alan walker.>',
 
@@ -42,7 +42,7 @@ cmd({
                 },
 
                 caption: `
-*👑 𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑*
+*𝑨𝑳𝑲𝑨𝑺𝑬𝑹↝𝑩𝑶𝑻*
 
 💓هـلا ${citel.pushName}💓
 
@@ -56,8 +56,8 @@ cmd({
 *${prefix}4.3┃ YOWhatsapp*
 
 
-*👑 𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑*
-*👩‍💻 𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑬𝑳𝑺𝑨 𝑩𝑶𝑻*
+*𝑨𝑳𝑲𝑨𝑺𝑬𝑹*
+*𝑨𝑳𝑲𝑨𝑺𝑬𝑹↝𝑩𝑶𝑻*
 `,
 
                 footer: tlang().footer,
@@ -74,7 +74,7 @@ cmd({
 cmd(
     {
         pattern: "4.0", // Change the command pattern to something you prefer
-        react: "🧩",      
+        react: "💛",      
         filename: __filename
     },
     async (Void, citel, text) => {
@@ -88,7 +88,7 @@ cmd(
                     document: { url: wamod.result.com_whatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_whatsapp.name,
-                    caption: '👑 *𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑*\n👩‍💻 *𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑬𝑳𝑺𝑨 𝑩𝑶𝑻*'
+                    caption: ' *𝑨𝑳𝑲𝑨𝑺𝑬𝑹*\n *𝑨𝑳𝑲𝑨𝑺𝑬𝑹↝𝑩𝑶𝑻*'
                 },
                 { quoted: citel }
             );
@@ -104,7 +104,7 @@ cmd(
 cmd(
     {
         pattern:"4.1", // Change the command pattern to something you prefer
-        react: "🧩",      
+        react: "💚",      
         filename: __filename
     },
     async (Void, citel, text) => {
@@ -119,7 +119,7 @@ cmd(
                     document: { url: wamod.result.com_fmwhatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_fmwhatsapp.name,
-                    caption: '👑 *𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑*\n👩‍💻 *𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑬𝑳𝑺𝑨 𝑩𝑶𝑻*'
+                    caption: ' *𝑨𝑳𝑲𝑨𝑺𝑬𝑹*\n *𝑨𝑳𝑲𝑨𝑺𝑬𝑹↝𝑩𝑶𝑻*'
                 },
                 { quoted: citel }
             );
@@ -135,7 +135,7 @@ cmd(
 cmd(
     {
         pattern: "4.2", // Change the command pattern to something you prefer
-        react: "🧩",      
+        react: "🟢",      
         filename: __filename
     },
     async (Void, citel, text) => {
@@ -150,7 +150,7 @@ cmd(
                     document: { url: wamod.result.com_gbwhatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_gbwhatsapp.name,
-                    caption: '👑 *𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑*\n👩‍💻 *𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑬𝑳𝑺𝑨 𝑩𝑶𝑻*'
+                    caption: ' *𝑨𝑳𝑲𝑨𝑺𝑬𝑹*\n *𝑨𝑳𝑲𝑨𝑺𝑬𝑹↝𝑩𝑶𝑻*'
                 },
                 { quoted: citel }
             );
@@ -166,7 +166,7 @@ cmd(
 cmd(
     {
         pattern: "4.3", // Change the command pattern to something you prefer
-        react: "🧩",      
+        react: "🟩",      
         filename: __filename
     },
     async (Void, citel, text) => {
@@ -181,7 +181,7 @@ cmd(
                     document: { url: wamod.result.com_yowhatsapp.link },
                     mimetype: "application/vnd.android.package-archive",
                     fileName: wamod.result.com_yowhatsapp.name,
-                    caption: '👑 *𝐄𝐋𝐆𝐀𝐙𝐀𝐑 ❄️&𝐈𝐓𝐀𝐂𝐇𝐈 👑*\n👩‍💻 *𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑬𝑳𝑺𝑨 𝑩𝑶𝑻*'
+                    caption: ' *𝑨𝑳𝑲𝑨𝑺𝑬𝑹*\n *𝑨𝑳𝑲𝑨𝑺𝑬𝑹↝𝑩𝑶𝑻*'
                 },
                 { quoted: citel }
             );
