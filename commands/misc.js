@@ -238,11 +238,11 @@ const vcard = 'BEGIN:VCARD\n' +
              var author;
              if (text) {
                  anu = text.split("|");
-                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '𝐸𝐿𝑆𝐴 𝐵𝑂𝑇-𝑀𝐷';
+                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '.';
                  author = anu[1] !== "" ? anu[1] : Config.author;
              } else {
                  pack = citel.pushName;
-                 author = "𝐸𝐿𝑆𝐴 𝐵𝑂𝑇-𝑀𝐷";
+                 author = ".";
              }
                  let media = await citel.quoted.download();
                  citel.reply("*֎╎لـحـظـه بـرسـلـك الـمـلـصـق...*");
@@ -332,7 +332,7 @@ const vcard = 'BEGIN:VCARD\n' +
          async(Void, citel, text) => {
              if (!text) return citel.reply(`*֎╎مـثـال┇.عـكـس الـسـا*`)
              flipe = text.split('').reverse().join('')
-             citel.reply(`\`\`\`*〖عـكـس الـكـلـمـات〗*\`\`\`\n*֎╎الـكـلـمـه الاصـلـيـه┇* \n${text}\n*֎╎الـكـلـمـه الـمـعـكـوسـه┇* \n${flipe}`)
+             citel.reply(`\`\`\`*|عـكـس الـكـلـمـات|*\`\`\`\n*֎╎الـكـلـمـه الاصـلـيـه┇* \n${text}\n*֎╎الـكـلـمـه الـمـعـكـوسـه┇* \n${flipe}`)
  
          }
      )
@@ -499,7 +499,7 @@ let buttons = [{
  cmd({ on: "body" }, async(Void, citel) => {
    if (!Config.autoreaction) return 
    else if (Config.autoreaction === 'true' && citel.text.startsWith(prefix)) {
-         const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋']
+         const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋', '🐦', '🌚', '🗿']
          const emokis = emojis[Math.floor(Math.random() * (emojis.length))]
          Void.sendMessage(citel.chat, {
              react: {
