@@ -634,7 +634,7 @@ async(Void, citel, text) => {
     //---------------------------------------------------------------------------
 cmd({
     pattern: "طرد",
-    alias: ["kick"],
+    alias: ["kick", "https://telegra.ph/file/d5baeb67b8ac99d9468a8.png"]
     filename: __filename,
 },
 async(Void, citel, text) => {
@@ -1017,7 +1017,7 @@ cmd({
              let txt = `*❮ 📢┇إذاعــه عــام┇📢 ❯*\n\n*֎╎الـرسـالـه🀄┇* ${text}\n\n*֎╎الـمـطـور🧑‍💻┇* ${citel.pushName}` 
              await Void.sendMessage(i, { 
                  image: { 
-                     url: "https://telegra.ph/file/6aada4aec4aa251ff14b3.jpg" 
+                     url: "https://telegra.ph/file/9a7dc182c303be738ad51.jpg" 
                  }, 
                  caption: `${txt}` 
              }) 
