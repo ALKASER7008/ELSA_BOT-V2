@@ -117,7 +117,7 @@ return citel.reply("*֎╎تـم تـحـديـث رابـط الـقـروب*")
     //---------------------------------------------------------------------------
     cmd({
   pattern: "غادر",
-  alias: ["اخرج"],
+  alias: ["اخرج", "https://telegra.ph/file/aa4efb718cdf8b5a4fa1f.jpg"]
   desc: "Leaves the current group",
   category: "group",
 }, async (Void, citel, text) => {
