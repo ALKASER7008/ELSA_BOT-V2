@@ -23,7 +23,7 @@ async (Void, citel, text, { isCreator }) => {
 
     updating = true;
     let asciiBorder = '*❋ ─═══━•┇❄️┇•━═══─ ❋*\n';
-    asciiBorder += '┇    *֎╎جـاري تـحـديـث ALKASER BOT*     ┇\n';
+    asciiBorder += '┇    *֎╎جـاري تـحـديـث هيسوكا و القط طحنون*     ┇\n';
     asciiBorder += '*❋ ─═══━•┇❄️┇•━═══─ ❋*\n';
 
     // Create a loading bar
