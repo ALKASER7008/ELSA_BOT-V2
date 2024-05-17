@@ -106,7 +106,7 @@ cmd({
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "*֎╎اكـتـب الامـر مـثـال┇.زخرفه 45 ELSA BOT*\n\n"
+                    "*֎╎اكـتـب الامـر مـثـال┇.زخرفه 45 طحنون*\n\n"
                 );
                 listall("ELSA BOT").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
