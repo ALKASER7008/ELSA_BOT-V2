@@ -16,13 +16,7 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://youtube.com/@ABDALLAH_MOHAMED')
         let cap = `هـاي ${citel.pushName}\n
-*❄️⃝🧚‍♀️ 𒆜𝑬𝑳𝑺𝑨 𝑩𝑶𝑻𒆜♦️*
-
-*❄️⃝🧚‍♀️ 〘الـيـك فـروع مـجـتـمـعـنـا〙*
-
-*❄️⃝🧚‍♀️ الـفـرع الاول https://chat.whatsapp.com/D2q8dnfUwbL83Tz79bGEK*
-
-*❄️⃝🧚‍♀️ الـفـرع الـثـانـي قـريـبـا...*`
+*❄️⃝🧚‍♀️ {بوت عمگ طحنون}*`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -101,7 +95,7 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*جميع ثيمات بوته السا ELSA *"
+let str="*جميع ثيمات البوت *"
 str+=`1. ELSA\_Reply ${prefix}الثيم THEME:ELSA`
 return citel.reply(str)
     
