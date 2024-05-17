@@ -335,7 +335,7 @@ default:
         citel.reply(`*֎╎مـثـال┇ ${prefix}رهان 100 الاتـجـاه(يسار,يمين,فوق,تحت)`)
     }
    let media = await getBuffer(hjkl)
-   citel.reply(media,{packname:'BOT',author:'ELSA'},"sticker")
+   citel.reply(media,{packname:'بوت',author:'طحنون'},"sticker")
      const f = ["فوق", "يمين", "يسار", "تحت", "فوق", "يسار", "تحت", "يمين", "فوق", "تحت", "يمين", "يسار"]
      const r = f[Math.floor(Math.random () * f.length)]
      if (!text) return citel.reply(
